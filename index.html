@@ -9,9 +9,48 @@
             font-family: 'Verizon';
             src: url('./VERIZON_DESKTOP_FONTS/Neue Haas Grotesk/NHaasGroteskDSStd-75Bd.ttf') format('truetype'); 
             }
+            /* Use eText (eTX) for legible body small and micro text only, type sizes 14px and below. */
+@font-face {
+  font-family: "VerizonNHGeTX-Regular";
+  src: url("https://brandcentral.verizonwireless.com/public/fonts/VerizonNHGeTX-Regular.eot?#iefix");
+  src: url("https://brandcentral.verizonwireless.com/public/fonts/VerizonNHGeTX-Regular.eot?#iefix") format("eot"),
+    url("https://brandcentral.verizonwireless.com/public/fonts/VerizonNHGeTX-Regular.woff2") format("woff2"),
+    url("https://brandcentral.verizonwireless.com/public/fonts/VerizonNHGeTX-Regular.woff") format("woff");
+}
+@font-face {
+  font-family: "VerizonNHGeTX-Bold";
+  src: url("https://brandcentral.verizonwireless.com/public/fonts/VerizonNHGeTX-Bold.eot?#iefix");
+  src: url("https://brandcentral.verizonwireless.com/public/fonts/VerizonNHGeTX-Bold.eot?#iefix") format("eot"),
+    url("https://brandcentral.verizonwireless.com/public/fonts/VerizonNHGeTX-Bold.woff2") format("woff2"),
+    url("https://brandcentral.verizonwireless.com/public/fonts/VerizonNHGeTX-Bold.woff") format("woff");
+}
+/* Use eDisplay for visual impact, type sizes 15px and above */
+@font-face {
+  font-family: "VerizonNHGeDS-Regular";
+  src: url("https://brandcentral.verizonwireless.com/public/fonts/VerizonNHGeDS-Regular.eot?#iefix");
+  src: url("https://brandcentral.verizonwireless.com/public/fonts/VerizonNHGeDS-Regular.eot?#iefix") format("eot"),
+    url("https://brandcentral.verizonwireless.com/public/fonts/VerizonNHGeDS-Regular.woff2") format("woff2"),
+    url("https://brandcentral.verizonwireless.com/public/fonts/VerizonNHGeDS-Regular.woff") format("woff");
+}
+@font-face {
+  font-family: "VerizonNHGeDS-Bold";
+  src: url("https://brandcentral.verizonwireless.com/public/fonts/VerizonNHGeDS-Bold.eot?#iefix");
+  src: url("https://brandcentral.verizonwireless.com/public/fonts/VerizonNHGeDS-Bold.eot?#iefix") format("eot"),
+    url("https://brandcentral.verizonwireless.com/public/fonts/VerizonNHGeDS-Bold.woff2") format("woff2"),
+    url("https://brandcentral.verizonwireless.com/public/fonts/VerizonNHGeDS-Bold.woff") format("woff");
+}
+@font-face {
+  font-family: "VerizonIcon";
+  src: url("https://brandcentral.verizonwireless.com/public/fonts/VerizonIcon.eot?88965908");
+  src: url("https://brandcentral.verizonwireless.com/public/fonts/VerizonIcon.eot?88965908#iefix")
+      format("embedded-opentype"),
+    url("https://brandcentral.verizonwireless.com/public/fonts/VerizonIcon.woff?88965908") format("woff"),
+    url("https://brandcentral.verizonwireless.com/public/fonts/VerizonIcon.ttf?88965908") format("truetype"),
+    url("https://brandcentral.verizonwireless.com/public/fonts/VerizonIcon.svg?88965908#VerizonIcon") format("svg");
+}
         </style>
     <script defer src="js/bundleName.js"></script></head>
     <body>
-        <span style="font-family: 'Verizon';"></span>
+        <span style="font-family: 'VerizonNHGeDS-Bold';"></span>
     </body>
 </html>
